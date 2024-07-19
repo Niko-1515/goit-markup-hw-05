@@ -559,20 +559,30 @@ background-color: #31d0aa;
     margin-bottom: 16px;
 }
 
-.footer-inp-btn {
+.footer-form  {
     display: flex;
+    gap : 24px
 }
 
+.footer-form :not(:first-child) {
+    /* gap: 0px */
+}
+
+
 .footer-input {
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    background-color: #2e2f42;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    margin-right: 24px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     padding: 8px 24px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .footer-input::placeholder {
@@ -580,7 +590,7 @@ background-color: #31d0aa;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
+    color #ffffff;
 }
 
 .footer-btn {
@@ -589,11 +599,15 @@ background-color: #31d0aa;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
     border-radius: 4px;
-    padding: 8px 24px;
-    max-width: 165px;
+    padding-left: 24px;
+    min-width: 165px;
     height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
     background-color: #4d5ae5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -608,6 +622,7 @@ background-color: #31d0aa;
 
 .footer-btn-icon {
     fill: #ffffff;
+    margin-right: 16px;
 }
 
 
