@@ -564,9 +564,6 @@ background-color: #31d0aa;
     gap : 24px
 }
 
-.footer-form :not(:first-child) {
-    /* gap: 0px */
-}
 
 
 .footer-input {
