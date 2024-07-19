@@ -779,7 +779,8 @@ input:focus+svg {
 
 .modal-check-text {
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    display: flex;
 }
 
 .modal-check:checked+label>span {
