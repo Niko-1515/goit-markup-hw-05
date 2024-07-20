@@ -783,20 +783,18 @@ input:focus+svg {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    
 }
 
 .modal-check-text {
-    display: flex;
-        gap: 8px;
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8e8f99;
-        align-items: center;
+      
 }
+
+
 
 .modal-check:checked + label > span {
     background-color: #404bbf;
@@ -815,6 +813,7 @@ input:focus+svg {
         justify-content: center;
         align-items: center;
         fill: transparent;
+        margin-right: 8PX;
     }
 
 .privacy {
