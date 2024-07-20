@@ -578,7 +578,6 @@ background-color: #31d0aa;
     padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    padding: 8px 24px;
     color: #ffffff;
 }
 
@@ -646,7 +645,7 @@ background-color: #31d0aa;
 }
 
 .modal {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     width: 408px;
@@ -664,7 +663,7 @@ background-color: #31d0aa;
     transform: translate(-50%, -100%);
 }
 
-.button-close-btn {
+.modal-close-btn {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -687,14 +686,14 @@ background-color: #31d0aa;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-close-btn:hover,
-.button-close-btn:focus {
+.modal-close-btn:hover,
+.modal-close-btn:focus {
     border: none;
     background-color: #404bbf;
 }
 
-.button-close-btn:hover svg,
-.button-close-btn:focus svg {
+.modal-close-btn:hover svg,
+.modal-close-btn:focus svg {
     fill: #fff;
 }
 
@@ -799,6 +798,10 @@ input:focus+svg {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
+}
+
+.span-check {
+display: inline-flex;
 }
 
 .span-check {
